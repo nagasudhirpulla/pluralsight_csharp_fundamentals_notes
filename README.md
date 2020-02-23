@@ -32,3 +32,35 @@ dotnet CLI (command line interface) can be used in the command prompt (cmd)
 - Use ```dotnet new webapp``` to create a razor pages web app project
 
 ![dotnet new command options](https://github.com/nagasudhirpulla/pluralsight_csharp_fundamentals_notes/raw/master/assets/dotnet_new_options.png)
+
+## Create a console app in .NET Core
+```dotnet new console```
+- This command will create a new console app in .NET Core
+- We will get a **.csproj** file that contains project info and a **Program.cs** file that contains the C# code
+- .csproj file is shown below that has information about the console application frameworks configuration
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+</Project>
+```
+- .cs file is shown below that contains **static void Main** function that serves as an entry point for the console app
+```cs
+using System;
+namespace console_app
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
+## Running the console app
+- The console app can be run using the command ```dotnet run```
+- This command will build and run the console app
