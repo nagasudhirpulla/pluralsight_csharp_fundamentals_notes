@@ -20,3 +20,11 @@ https://code.visualstudio.com/download
 - FCL contains libraries to perform common tasks like HTTP requests, message encryption etc.
 
 ![.NET Runtime and Framework Class Library (FCL)](https://github.com/nagasudhirpulla/pluralsight_csharp_fundamentals_notes/raw/master/assets/dotnet_components.png)
+
+## .NET Core command line
+dotnet CLI (command line interface) can be used in the command prompt (cmd)
+- dotnet versions and other info ```dotnet --info```
+- Use **--help** for help on any command ```dotnet new --help```
+
+## Creating .NET Core project using dotnet new command
+![dotnet new command options](https://github.com/nagasudhirpulla/pluralsight_csharp_fundamentals_notes/raw/master/assets/dotnet_new_options.png)
