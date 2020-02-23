@@ -86,3 +86,7 @@ namespace console_app
 ```
 - By running ```dotnet run -- Sudhir``` for the above program, the output would be ```Hello Sudhir!```
 - -- is required in dotnet run command to separate dotnet arguments from app arguments. Hence app arguments are to be specified after --
+
+## Debugging in VS Code
+- Debugging can be done by pressing **F5** or **Debug -> Start Debugging** in the menu bar.
+- Command line arguments for debugging can be changed in **configurations->args** attribute of **.vscode\launch.json** file
