@@ -72,9 +72,9 @@ namespace console_app
 {
     class Program
     {
+        // Prints Hello from the name specified in command line arguments
         static void Main(string[] args)
-        {
-            // Print Hello from the name specified in command line arguments
+        {   
             // check if we have atleast one argument
             if (args.Length > 0)
             {
