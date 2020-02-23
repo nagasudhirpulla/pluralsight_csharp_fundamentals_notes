@@ -27,4 +27,8 @@ dotnet CLI (command line interface) can be used in the command prompt (cmd)
 - Use **--help** for help on any command ```dotnet new --help```
 
 ## Creating .NET Core project using dotnet new command
+- Use ```dotnet new console``` to create a console app project
+- Use ```dotnet new mvc``` to create a mvc web app project
+- Use ```dotnet new webapp``` to create a razor pages web app project
+
 ![dotnet new command options](https://github.com/nagasudhirpulla/pluralsight_csharp_fundamentals_notes/raw/master/assets/dotnet_new_options.png)
