@@ -65,3 +65,24 @@ namespace console_app
 - The console app can be run using the command ```dotnet run```
 - This command will restore any required packages, compile our C# code to build dll and runs the console app
 - If command prompt is not running in the folder containng .csproj file use **--project** flag to specify the location of the folder having .csproj file. Example ```dotnet run --project src\ConsoleApp```
+
+## Passing command arguments to the app
+```cs
+namespace console_app
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Print Hello from the name specified in command line arguments
+            // check if we have atleast one argument
+            if (args.Length > 0)
+            {
+                Console.WriteLine($"Hello {args[0]!}");
+            }
+        }
+    }
+}
+```
+- By running ```dotnet run -- Sudhir``` for the above program, the output would be ```Hello Sudhir!```
+- -- is required in dotnet run command to separate dotnet arguments from app arguments. Hence app arguments are to be specified after --
