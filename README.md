@@ -63,5 +63,5 @@ namespace console_app
 
 ## Running the console app
 - The console app can be run using the command ```dotnet run```
-- This command will build and run the console app
+- This command will restore any required packages, compile our C# code to build dll and runs the console app
 - If command prompt is not running in the folder containng .csproj file use **--project** flag to specify the location of the folder having .csproj file. Example ```dotnet run --project src\ConsoleApp```
